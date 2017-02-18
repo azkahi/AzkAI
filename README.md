@@ -1,6 +1,6 @@
 # AzkAI
 An AI for FightingICE game (http://www.ice.ci.ritsumei.ac.jp/~ftgaic/) which learns through reinforcement learning.
-This AI uses a modified Monte Carlo Tree Search algorithm and apply machine learning through SARSA algorithm with a learning rate of 0.5 and discount rate if 0.9.
+This AI uses a modified Monte Carlo Tree Search algorithm and apply machine learning through SARSA algorithm with a learning rate of 0.5 and discount rate of 0.9.
 
 # Explanation
 When the game start, the AI will read the external knowledge base and save it to its temporary data (making it local for more efficient use). With Monte Carlo Tree Search algorithm, the AI will then choose the best action from random simulation of the game with knowledge base for consideration. This best action will then be executed and the resulting score will be processed through SARSA algorithm, thus influencing the knowledge base. After the game has ended, the local knowledge base is tallied and saved to an external file for future use.
