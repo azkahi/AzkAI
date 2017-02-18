@@ -1,5 +1,5 @@
 # AzkAI
-An AI for FightingICE game which learns through reinforcement learning.
+An AI for FightingICE game (http://www.ice.ci.ritsumei.ac.jp/~ftgaic/) which learns through reinforcement learning.
 This AI uses a modified Monte Carlo Tree Search algorithm and apply machine learning through SARSA algorithm with a learning rate of 0.5 and discount rate if 0.9.
 
 # Explanation
